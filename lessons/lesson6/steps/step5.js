@@ -1,4 +1,4 @@
-попередній таск
+// попередній таск
 
 // modern solution
 const reverseString = (str) => str.split("").reverse().join("");

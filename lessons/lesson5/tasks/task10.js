@@ -30,7 +30,7 @@ var users = [
 // повернути модифікований массив
 
 function func(arr){
-
+  
 }
 
 console.log(func(users));
