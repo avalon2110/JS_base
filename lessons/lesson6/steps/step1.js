@@ -27,6 +27,23 @@ pow(2,0) = 1;
 // і повернути 1
 
 
+// приклад
+const countDownFrom = (num) => {
+    if(num === 0) {
+        return;
+    }
+    console.log(num);
+    countDownFrom(num - 1);
+}
+// виведе
+// 10
+// 9
+// 8
+// 7
+// ...
+// 1
+
+
 //task
 
 // написати функцію, яка приймає 2 параметри

@@ -115,13 +115,26 @@ var users2 = [
 
 // поверне true, бо хоча б один юзер є одружений
 var isSomeOneMarried = users2.some(function(element){
-  return element.isMarried == true;
+  return element.isMarried === true;
 })
+
+// arrow function
+let isSomeOneMarried = users2.some(el => el.isMarried === true);
+
+
+
 
 // поверне false, бо не всі юзери є одружені
 var isEveryMarried = users2.every(function(element){
   return element.isMarried == true;
 })
+
+//arrow function
+let isEveryMarried = users2.every(el => el.isMarried === true);
+
+
+
+
 
 
 

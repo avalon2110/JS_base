@@ -1,3 +1,34 @@
+// попередній таск
+
+// цикл
+const loopFact = (num, stepin) => {
+  
+  let result = 1;
+
+  for (let i = 0; i < stepin; i++) {
+      result *= num;
+  }
+
+  return result;
+};
+
+
+// рекурсія
+const recFact = (num, stepin) => {    
+  if (stepin == 0) {
+      return 1;
+  } else {
+      return num * recFact(num, stepin - 1);
+  }
+};
+
+
+console.log(recFact(2,5));
+console.log(recFact(2,0));
+
+
+
+
 // new Date()
 
 var date = new Date();
