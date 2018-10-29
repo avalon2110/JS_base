@@ -1,3 +1,27 @@
+// Попереднэ завдання
+const requiredMinAge = 12;
+const requiredMaxAge = 17;
+
+const requiredCity = 'Lviv';
+const requiredHasChildrenStatus = false;
+const requiredMarriageStatus = false;
+
+var userAge = +prompt('Enter your age');
+var userCity = prompt('Enter your city');
+var userHasChildrenStatus = confirm('Do you have children? Click OK if true, Cancel if false');
+var userMarriageStatus = confirm('Are you married? Click OK if true, Cancel if false');
+
+
+var access = false;
+if(userAge >= requiredMinAge && userAge <= requiredMaxAge && userCity === requiredCity && userHasChildrenStatus === requiredHasChildrenStatus && userMarriageStatus === requiredMarriageStatus) {
+    access = true;
+    alert('You have access');
+} else {
+    access = false;
+    alert('You don\'t have access');
+}
+
+
 // Методи і властивості різних типів даних.
 
 // Стрічка
@@ -36,7 +60,7 @@
 // // пошук слова в слові
 // var str = "lala1Tlala2";
 //
-// // метод indeoOf() повертає порядковий номер букви чи слова, якщо воно є. якщо немає , повертає -1
+// // метод indexOf() повертає порядковий номер букви чи слова, якщо воно є. якщо немає , повертає -1
 // var result = str.indexOf("T");
 // console.log(result);  // поверне 5, бо буква T на 5 позиції(якщо рахувати з нуля)
 //
@@ -46,20 +70,3 @@
 
 
 
-
-//task
-// написати код, який буде робити наступне
-// є змінна(стрічка) приблизно така
-// var price = "100$";
-
-// потрібно вивести на екран(console.log чи alert()) вартість без $
-// якщо юзер ввів просто число, то вивести це число
-// якщо ввів з доларом, вивести число без долара
-// але код повинен працювати якщо я введу 200$ чи 500$
-//
-//
-// алгоритм приблизно наступний
-// питаємся суму (prompt()) , якщо в змінній є число(тип данних Number), то виводимо те, що юзер ввів(якщо число, то це означає що юзер ввів суму без $)
-// якщо що юзер ввів стрічку, значить він ввів суму зі знаком долару. виводимо число без знаку долара.
-// код має працювати якщо ввести 100$ і 10000$
-// тут потрібно логічно подумати як вивести число без долара

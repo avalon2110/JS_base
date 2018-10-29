@@ -1,3 +1,22 @@
+// Попереднє завдання
+var school = 25; // номер школи
+var city = "Lviv"; //місто
+var year = 2005; //рік випуску
+
+var userSchool = +prompt('Enter your school number');
+var userCity = prompt('Enter your city');
+var userYear = +prompt('Enter your graduation year');
+
+var access = false;
+
+if(userSchool === school && userCity === city && userYear === year) {
+    access = true;
+    alert('You have access');
+} else {
+    access = false;
+    alert('You don\'t have access');
+}
+
 // Логічне заперечення
 
 
