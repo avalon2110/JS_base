@@ -34,4 +34,5 @@ function func(num){
 
 }
 
-console.log(func(5));
+var result = func(5);
+console.log(result);

@@ -22,10 +22,11 @@ function func(myObj){
 
 }
 
+var res1 = func(obj1);
+console.log(res1, ' first object');
 
-console.log(func(obj1));
-console.log(func(obj2));
-
+var res2 = func(obj2);
+console.log(res2, ' second object');
 
 
 

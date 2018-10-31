@@ -12,15 +12,12 @@
 // результат виведеться алертом
 // потрібно памятати, що любе число в 0 степені = 1
 
+var num = +prompt('Enter number');
+var power = +prompt("Enter power");
 function func(a, b) {
   //тут код
 
 }
 
-
-document.getElementById("btn").onclick = function () {
-  var inp1 = +document.getElementById("input1").value;
-  var inp2 = +document.getElementById("input2").value;
-  var res = func(inp1,inp2);
-  alert(res);
-};
+var result = func(num, power);
+alert(result);

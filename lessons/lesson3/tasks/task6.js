@@ -3,11 +3,10 @@
 // наприклад
 // min(1,2) повинно повернути 1
 // min(10, 20) повертає 10
-// перший параметр записуємо в перший інпут,
-// другий параметр записуємо в другий інпут
-// результат виведеться алертом
 
 
+var num1 = +prompt('Enter num 1');
+var num2 = +prompt('Enter num 2');
 
 
 function min(a, b) {
@@ -15,10 +14,5 @@ function min(a, b) {
   // повинно повертати менше з двох чисел
 }
 
-
-document.getElementById("btn").onclick = function () {
-  var inp1 = +document.getElementById("input1").value;
-  var inp2 = +document.getElementById("input2").value;
-  var res = min(inp1,inp2);
-  alert(res);
-};
+var result = min(num1, num2);
+console.log(result);

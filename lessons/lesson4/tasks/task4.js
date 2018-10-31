@@ -23,10 +23,11 @@ var user = {
 // функція повинна повернути модифікований обєкт
 
 function func(myObj){
-
+    
 }
 
-console.log(func(user));
+var result = func(user);
+console.log(result);
 
 
 

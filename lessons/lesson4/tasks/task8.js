@@ -13,14 +13,11 @@ var salaries = {
 
 function func(obj){
   var sum = 0;
-  for(var key in obj){
-    sum += obj[key];
-  }
 
-  return sum;
 }
 
-console.log(func(salaries));
+var result = func(salaries);
+console.log(result);
 
 
 

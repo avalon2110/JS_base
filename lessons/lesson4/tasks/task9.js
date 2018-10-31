@@ -11,17 +11,12 @@ var salaries = {
 function func(obj){
   var name = "";
   var maxSalary = 0;
-  for(var key in obj){
-    if(maxSalary < obj[key]){
-      maxSalary = obj[key];
-      name = key;
-    }
-  }
 
-  return name;
 }
 
-console.log(func(salaries))
+var result = func(salaries);
+
+console.log(result);
 
 
 

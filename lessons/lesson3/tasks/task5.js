@@ -1,21 +1,19 @@
 // написати функцію, яка робить наступне
-// в інпут вводимо любе число з нулів і одиниць
+// користувач вводить любе число з нулів і одиниць
 // наприклад 110011
 // і функція має міняти 1 на 0 і навпаки
 // і записувати в змінну result
 // наприклад в інпуті 110011
 // в result 001100
+// далі виводимо результат
 
-
+var input = prompt("Enter value");
 
 function someFunc() {
-  var text = document.getElementById("input1").value;
-  var result = "";
-  //тут код
-  // введене значення в змінній text
 
-  
+	var result = "";
+	//тут код
+	// введене значення в змінній input
 
-  document.getElementById("input2").value = result;
+	
 }
-document.getElementById("btn").onclick = someFunc;

@@ -35,8 +35,10 @@ var obj = {
 
 // функція повинна повертати модифіковаинй обєкт
 
-function func(obj){
+function func(myObj){
 
-}
+};
 
-console.log(func(obj));
+var result = func(obj);
+
+console.log(result);

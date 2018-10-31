@@ -7,6 +7,8 @@
 // метод toUpperCase() приводить в верхній регістр
 // toLowerCase() в нижній
 
+var input = prompt('Enter string');
+
 function func(str){
   var newStr = "";
 
@@ -17,5 +19,5 @@ function func(str){
 
 
 
-var str = "qWeR"; //любе слово, яке передаємо в функцію
-console.log(func(str));
+var result  = func(input); 
+alert(result);

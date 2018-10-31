@@ -1,5 +1,4 @@
 // написати калькулятор
-// в перший інпут вводимо наступне
 // наприклад
 // 1+2
 // і функція повинна повернути сумму першого і другого елемента
@@ -12,20 +11,18 @@
 
 // умова
 // числа задаємо в діапазон від 0 до 9
-// повноцінний калькулятор напише коли
+// повноцінний калькулятор напишемо коли
 // пройдемо масиви
 
+var input = prompt('Calculate');
 
 function calculate(text) {
   //тут код
   //параметр text містить введене значення
 }
 
-document.getElementById("btn").onclick = function () {
-  var inp1 = document.getElementById("input1").value;
-  document.getElementById("input2").value = calculate(inp1);
-};
-
+var result = calculate(input);
+console.log(result);
 
 
 //tasks/task8.js

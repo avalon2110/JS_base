@@ -13,7 +13,9 @@ var obj = {
   city : "Winterfell",
   isMarried: false
 }
-console.log(func(obj)); // повинно повернути 4
+
+var result = func(obj);
+console.log(result); // повинно повернути 4
 
 
 

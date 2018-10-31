@@ -7,7 +7,9 @@
 var obj1 = {};
 // func(obj1) --> поверне true
 
-var obj2 = {name:"name"};
+var obj2 = {
+    name:"name"
+};
 //func(obj2) --> поверне false
 
 
