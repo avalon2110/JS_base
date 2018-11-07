@@ -74,4 +74,20 @@
 // var clone = arr4.slice();
 // console.log(clone);
 
+// forEach
+// callback
+
+// higher order functions
+
+function f(fn) {
+    fn();
+}
+
+function lol() {
+    console.log('lol function');
+}
+
+f(lol);
+
+
 //tasks/task7.js
