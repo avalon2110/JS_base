@@ -157,3 +157,24 @@ var array = [
 ]
 
 // і повертає новий масив , в який входять чоловікі старше 30років
+
+
+
+
+// reduce
+var arr = [1,2,3,4,5];
+var sumOfElements = arr.reduce(function(sum, el){
+  console.log(sum, ' current sum');
+  console.log(el, ' current el');
+  console.log(`we return ${sum + el}, so it will be next sum`);
+  return sum + el;
+}, 0);
+
+var sumOfElements = arr.reduce((sum, el) => sum + el, 0);
+
+
+// то саме що 
+var res = 0;
+for(var i = 0; i < arr.length; i++) {
+  res += arr[i];
+}
